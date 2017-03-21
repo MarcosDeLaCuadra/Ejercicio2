@@ -1,51 +1,22 @@
 <?php
 
-echo "hola mundo";
-
- $array= array();
-
-for ($i=0; $i <5 ; $i++) { 
-    # code...
-    $array[$i]= rand(1, 10);
-}
 
 
-var_dump($array);
+//ejer 8
 
- $promedio =0;
+$arrayAsociativo= array("remera"=> "roja", "pantalon"=>"nergo");
 
-for ($i=0; $i <5 ; $i++) { 
-    # code...
-   
-    $promedio= $promedio+$array[$i];
-}
+var_dump($arrayAsociativo);
 
-echo $promedio;
+ echo "<br>";
 
-echo "<br>";
-
-$promedio= $promedio / 6;
-
-echo "<br>";
-
-echo $promedio;
-
-if($promedio <6)
-{
-    echo "el promedio es menor a 6   :   ". $promedio;
-
-}
-if($promedio ==6)
-{
-     echo "el promedio es  6   :   ". $promedio;
-}
-else
-{
-
-    echo "el promedio es mayor a 6    :    ". $promedio;
-}
-
- 
+ foreach ( $arrayAsociativo as $item)
+  {
+      echo "<br>";
+      echo $item;
+      echo "<br>";
+     # code...
+ }
 
 /*$array2 = array(0=> rand(), 1=> rand(), 2=> "carlos");
 
