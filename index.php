@@ -35,13 +35,17 @@ if($promedio <6)
     echo "el promedio es menor a 6   :   ". $promedio;
 
 }
+if($promedio ==6)
+{
+     echo "el promedio es  6   :   ". $promedio;
+}
 else
 {
 
     echo "el promedio es mayor a 6    :    ". $promedio;
 }
 
-
+ 
 
 /*$array2 = array(0=> rand(), 1=> rand(), 2=> "carlos");
 
